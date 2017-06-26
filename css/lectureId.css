@@ -1,0 +1,654 @@
+/*banner*/
+
+.lecBanner {
+    position: relative;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.carousel-inner>.item>.secondBnnerForDetail {
+    width: 100%;
+    height: 350px;
+    max-width: 1240px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.detailHeadBox {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #fff;
+    box-shadow: 0px 1px 3px #000;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 100px auto 10px auto;
+    position: relative;
+}
+
+.detailHeadBox img {
+    width: 100%;
+}
+
+.speakerName {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    font-size: 3em;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 0px 1px 2px #666;
+    text-align: center;
+}
+
+.speakerIntr {
+    display: block;
+    width: 100%;
+    padding: 0px 20%;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+    height: 66px;
+    overflow: hidden;
+    text-shadow: 0px 1px 2px #666;
+}
+
+@media screen and (max-width: 800px) {
+    .speakerIntr {
+        padding: 0px 5%;
+    }
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 40px;
+    display: inline-block;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 2.4em;
+        line-height: 1em;
+        text-align: center;
+        display: block;
+        clear: both;
+        padding-bottom: 20px;
+    }
+}
+
+.detailTitleTime {
+    padding-left: 4em;
+    font-size: 1.3em;
+    color: #666;
+}
+
+.detailTitlePlace {
+    padding-left: 2em;
+    font-size: 1.3em;
+    color: #666;
+}
+
+@media screen and (max-width: 800px) {
+    .detailTitleTime,
+    .detailTitlePlace {
+        width: 100%;
+        line-height: 1.5em;
+        text-align: center;
+        padding-left: 0px;
+        display: inline-block;
+    }
+}
+
+.lecturesOverView {
+    width: 65%;
+    box-sizing: border-box;
+    border-left: 4px solid #cc3434;
+    padding-left: 1em;
+    font-size: 1.6em;
+    line-height: 1.8em;
+}
+
+@media screen and (max-width: 800px) {
+    .lecturesOverView {
+        width: 100%;
+    }
+}
+
+.leftRow {
+    width: 65%;
+    float: left;
+}
+
+@media screen and (max-width: 800px) {
+    .leftRow {
+        width: 100%;
+        float: none;
+    }
+}
+
+.detailVideoControl {
+    height: 60px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 800px) {
+    .detailVideoControl {
+        height: 120px;
+    }
+}
+
+.userControl {
+    float: right;
+}
+
+@media screen and (max-width: 800px) {
+    .userControl {
+        width: 100%;
+        height: 60px;
+        float: none;
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+.userControl a {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.userControl a.like:link,
+.userControl a.like:visited {
+    background-image: url(../zhangcuicui_SPEECH/img/big_like.png);
+}
+
+.userControl a.like:hover,
+.userControl a.like:active {
+    background-image: url(../zhangcuicui_SPEECH/img/big_like_s.png);
+}
+
+.userControl a.mark:link,
+.userControl a.mark:visited {
+    background-image: url(../zhangcuicui_SPEECH/img/big_mark.png);
+}
+
+.userControl a.mark:hover,
+.userControl a.mark:active {
+    background-image: url(../zhangcuicui_SPEECH/img/big_mark_s.png);
+}
+
+.videoControl {
+    height: 60px;
+    padding-left: 18px;
+}
+
+@media screen and (max-width: 800px) {
+    .videoControl {
+        float: none;
+    }
+}
+
+.videoControl li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.3em;
+    color: #999;
+    padding: 0px 20px 0px 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.videoControl .play {
+    background-image: url(../zhangcuicui_SPEECH/img/big_playtime@1x.png);
+}
+
+.videoControl .like {
+    background-image: url(../zhangcuicui_SPEECH/img/big_Like-s@1x.png);
+}
+
+.videoControl .review {
+    background-image: url(../zhangcuicui_SPEECH/img/big_Review@1x.png);
+}
+
+.commentContent {
+    width: 100%;
+}
+
+.commentContent h3 {
+    display: block;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.baseCommentInput {
+    width: 100%;
+    height: 40px;
+    padding-left: 1em;
+    font-size: 1.4em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #ededed;
+    background-color: #fff;
+    color: #999;
+    box-sizing: border-box;
+}
+
+.baseCommentListBox {
+    width: 100%;
+    padding: 15px 0px 15px 23px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.baseCommentListBox .commentHeadBox {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 2px #999;
+    overflow: hidden;
+}
+
+.baseCommentListBox .commentHeadBox img {
+    width: 100%;
+}
+
+.baseCommentListBox .wordBox {
+    border: 1px solid #ededed;
+    background-color: #f8f8f8;
+    display: inline-block;
+    padding: 5px 0px 5px 40px;
+}
+
+.baseCommentListBox .wordBox .title {
+    color: #999;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    padding-right: 10px;
+}
+
+.baseCommentListBox .wordBox .title span {
+    padding-right: 3px;
+}
+
+.baseCommentListBox .wordBox .commentDetail {
+    padding: 5px 10px 5px 0px;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    cursor: pointer;
+    position: relative;
+}
+
+.baseCommentListBox .wordBox .buttonNotShow {
+    display: none;
+}
+
+.baseCommentListBox .wordBox .buttonBox .commentInput {
+    height: 40px;
+    width: 70%;
+    display: inline-block;
+    padding-left: 1em;
+    font-size: 1.4em;
+    border: 1px solid #ededed;
+    background-color: #f8f8f8;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .baseCommentListBox .wordBox .buttonBox .commentInput {
+        width: 100%;
+    }
+}
+
+.pageSelectBox {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.pageSelectList {
+    margin: 0 auto;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .pageSelectList {
+        margin: 0 auto;
+        display: block;
+        line-height: 44px;
+        text-align: left;
+    }
+}
+
+.pageSelectList a:link,
+.pageSelectList a:visited {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ccc;
+    margin: 0px 10px;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.pageSelectList a:hover {
+    background-color: #cc3434;
+}
+
+@media screen and (max-width: 800px) {
+    .pageSelectList a:link,
+    .pageSelectList a:visited {
+        display: inline-block;
+        width: 20%;
+        box-sizing: border-box;
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        height: 44px;
+        line-height: 44pxpx;
+        background-color: #ccc;
+        margin: 0px;
+        color: #fff;
+        text-align: center;
+        font-style: 1.3em;
+    }
+}
+
+.pageSelectList a.active {
+    background-color: #cc3434;
+    color: #fff;
+    cursor: default;
+}
+
+@media screen and (max-width: 800px) {
+    .pageSelectList a.active {
+        background-color: #cc3434;
+        color: #fff;
+        cursor: default;
+    }
+}
+
+.rightRow {
+    width: 35%;
+    float: left;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+    .rightRow {
+        width: 100%;
+        float: none;
+        padding-left: 0px;
+    }
+}
+
+.shareBox {
+    background-image: url(../zhangcuicui_SPEECH/img/Share_list.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    height: 34px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.shareList {
+    display: inline-block;
+    height: 34px;
+    padding: 5px 0px;
+    border-left: 1px solid #aaa;
+}
+
+.shareList li {
+    float: left;
+    padding: 0px 5px 0px 10px;
+}
+
+.wechatPopOut {
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    height: 0px;
+    opacity: 0;
+    background-color: #f2f2f2;
+    background-color: rgba(250, 250, 250, 0.95);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0px 3px 5px #999;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wechatPopOut span {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    padding: 10px;
+    display: block;
+}
+
+.wechatPopOut .title {
+    font-size: 1.6em;
+    line-height: 1.6em;
+    padding-top: 20px;
+    color: #e27d7d;
+}
+
+.tagBox {
+    background-image: url(../zhangcuicui_SPEECH/img/Review_list.png);
+    background-position: left 5px;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    padding-left: 40px;
+}
+
+.tagList {
+    display: inline-block;
+    padding: 5px 0px 5px 10px;
+    border-left: 1px solid #aaa;
+}
+
+.tagList li {
+    float: left;
+    height: 24px;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+}
+
+.tagList li a:link,
+.tagList li a:visited {
+    background-color: #f2f2f2;
+    display: inline-block;
+    color: #666;
+    height: 24px;
+    font-size: 1.3em;
+    padding: 0px 15px;
+    line-height: 24px;
+}
+
+.wholeSpeechButton:link,
+.wholeSpeechButton:visited {
+    width: 100%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.8em;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #dedede;
+    color: #e27d7d;
+    box-sizing: border-box;
+}
+
+.wholeSpeechButton:hover,
+.wholeSpeechButton:active {
+    width: 100%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.8em;
+    text-align: center;
+    background-color: #e27d7d;
+    border: 1px solid #cc3434;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.baseSectionTitleDetail {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    border-top: 2px solid #CC3434;
+    border-bottom: 2px solid #CC3434;
+    color: #CC3434;
+    box-sizing: border-box;
+    font-size: 1.8em;
+    margin: 0px auto 10px auto;
+}
+
+.baseRelatedList li {
+    margin-bottom: 10px;
+}
+
+.baseRelatedList li a:link,
+.baseRelatedList li a:visited {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.baseRelatedList li a:hover,
+.baseRelatedList li a:active {
+    background-color: #f2f2f2;
+}
+
+.baseRelatedList li .relatedHeadBox {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff;
+    box-shadow: 0px 1px 2px #666;
+    float: left;
+}
+
+.baseRelatedList li .relatedHeadBox img {
+    width: 100%;
+}
+
+.baseRelatedList li .relatedWordBox .title {
+    line-height: 30px;
+    font-size: 1.6em;
+    display: block;
+    padding-left: 1em;
+}
+
+.baseRelatedList li .relatedWordBox .name {
+    line-height: 30px;
+    font-size: 1.6em;
+    display: block;
+    color: #666;
+    padding-left: 1em;
+}
+
+.wholeSpeechContent {
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    padding: 5% 20%;
+    overflow: scroll;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: justify;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 999;
+    transition: all 300ms ease-out;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .wholeSpeechContent {
+        padding: 5%;
+    }
+}
+
+.wholeSpeechCloseButton {
+    display: block;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    right: 3%;
+    top: 103%;
+    background-image: url(../zhangcuicui_SPEECH/img/Back.png);
+    background-size: 48px 48px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 300ms ease-out;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+}
+
+.wholeSpeechContent h2 {
+    font-size: 3em;
+    line-height: 2em;
+    display: block;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width: 800px) {
+    .wholeSpeechContent h2 {
+        text-align: left;
+        clear: both;
+        padding-bottom: 20px;
+    }
+}
+
+.wholeSpeechContent .speaker {
+    font-size: 1.6em;
+    line-height: 2em;
+    display: block;
+}
+
+.wholeSpeechContent .date {
+    font-size: 1.3em;
+    line-height: 2em;
+    color: #666;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.wholeSpeechContent p {
+    font-size: 1.8em;
+    line-height: 1.8em;
+    padding-bottom: 1em;
+}

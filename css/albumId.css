@@ -1,0 +1,86 @@
+/*banner*/
+
+.albBanner {
+    position: relative;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.carousel-inner>.item>.thirdBnnerForDetail {
+    width: 100%;
+    height: 350px;
+    max-width: 1240px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 40px;
+    display: inline-block;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 2.4em;
+        line-height: 1em;
+        text-align: center;
+        display: block;
+        clear: both;
+        padding-bottom: 20px;
+    }
+}
+
+.detailTitleTime {
+    padding-left: 4em;
+    font-size: 1.3em;
+    color: #666;
+}
+
+@media screen and (max-width: 800px) {
+    .detailTitleTime {
+        width: 100%;
+        line-height: 1.5em;
+        text-align: center;
+        padding-left: 0px;
+        display: inline-block;
+    }
+}
+
+.topicOverView {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-left: 4px solid #cc3434;
+    padding-left: 1em;
+    font-size: 1.6em;
+    line-height: 1.8em;
+}
+
+.topicMainWord {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.6em;
+    line-height: 1.8em;
+}
+
+.topicMainWord p {
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.baseVideoList {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}

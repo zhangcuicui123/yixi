@@ -1,0 +1,750 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -webkit-transition: all 150ms ease-in-out;
+    font-weight: lighter;
+}
+
+body {
+    font-size: 10px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+input,
+button,
+select,
+textarea {
+    outline: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #E27D7D;
+}
+
+.bgRed {
+    background-color: #d51919;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.clearB {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.gray {
+    background-color: #f2f2f2;
+}
+
+.tw400 {
+    max-width: 400px;
+    width: 90%;
+}
+
+.tw100p {
+    width: 100%;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.cutline {
+    border-bottom: 1px solid #aaa;
+}
+
+.pdt40 {
+    padding: 40px 0px;
+}
+
+.sbw1240 {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb60 {
+    margin-bottom: 60px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+    color: #d51919;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    padding: 0 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li:hover a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li {
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-default .navbar-nav>li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #d51919;
+}
+
+@media all and (max-width:767px) {
+    .navbar {
+        background-color: #444;
+    }
+    .navbar-nav li {
+        line-height: 50px;
+        text-align: center;
+        box-sizing: border-box;
+        border-top: 1px solid #333;
+        font-size: 1.4em;
+        background-color: #444;
+    }
+    .navbar-default .navbar-nav>li:hover {
+        background-color: #d51919;
+    }
+}
+
+.footer {
+    width: 100%;
+    background-color: #666;
+}
+
+.footerBox {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.baseFootBox {
+    float: left;
+    box-sizing: border-box;
+    clear: right;
+}
+
+.footerBox .newCommom {
+    width: 40%;
+    padding: 0px 0.5%;
+    min-width: 300px;
+}
+
+@media screen and (max-width: 1190px) {
+    .footerBox .newCommom {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .footerBox .newCommom {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.newCommom .title {
+    background-image: url(../yixi/img/common_foot.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    line-height: 2em;
+    font-size: 1.4em;
+    color: #ccc;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.footCutLine {
+    width: 100%;
+    margin-top: 5px;
+    border-top: 1px solid #999;
+    height: 10px;
+    clear: both;
+}
+
+.newCommonList {
+    width: 100%;
+}
+
+.newCommonList li {
+    max-height: 80px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.newCommonList li .headBox {
+    float: left;
+    max-width: 36px;
+    width: 9%;
+}
+
+.newCommonList li .headBox .head {
+    width: 100%;
+    max-width: 36px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.newCommonList li .headBox .head img {
+    width: 100%;
+    float: left;
+}
+
+.newCommonList li .wordBox {
+    float: left;
+    width: 91%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.newCommonList li .wordBox .name {
+    display: block;
+    color: #ccc;
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+.newCommonList li .wordBox .common {
+    display: block;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    max-height: 64px;
+    overflow: hidden;
+}
+
+.newCommonList li .wordBox .common a:link,
+.newCommonList li .wordBox .common a:visited {
+    color: #ccc;
+}
+
+.footerBox .contact {
+    width: 16%;
+    padding: 0px 0.5%;
+}
+
+.contact .title {
+    background-image: url(../yixi/img/contect_foot.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    line-height: 2em;
+    font-size: 1.4em;
+    color: #ccc;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.baseFootList {
+    width: 100%;
+}
+
+.baseFootList li {
+    text-indent: 2.5em;
+    line-height: 3.5em;
+}
+
+.baseFootList li a:link,
+.baseFootList li a:visited {
+    color: #ccc;
+    font-size: 1.4em;
+}
+
+.footWeixin a {
+    cursor: s-resize;
+}
+
+.footWeixin div {
+    display: block;
+    font-size: 1.4em;
+    color: #aaa;
+    padding: 5px 0px;
+    border-top: 1px dashed #555;
+    border-bottom: 1px dashed #555;
+    text-indent: 0px;
+    padding-left: 2em;
+    line-height: 1.3em;
+}
+
+.footWeixin div span {
+    color: #ccc;
+}
+
+.footerBox .QA {
+    width: 16%;
+    padding: 0px 0.5%;
+}
+
+.QA .title {
+    background-image: url(../yixi/img/support_foot.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    line-height: 2em;
+    font-size: 1.4em;
+    color: #ccc;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1190px) {
+    .footerBox .contact,
+    .footerBox .QA {
+        width: 32%;
+        padding: 0px 1%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .footerBox .contact,
+    .footerBox .QA {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+.footerBox .downloadApp {
+    width: 24%;
+    float: right;
+    padding: 0px 0.5%;
+    width: 300px;
+}
+
+@media screen and (max-width: 930px) {
+    .footerBox .downloadApp {
+        float: left;
+        width: 100%;
+        clear: both;
+        margin: 0 auto;
+    }
+}
+
+.downloadApp .title {
+    background-image: url(../yixi/img/app_foot.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    line-height: 2em;
+    font-size: 1.4em;
+    color: #ccc;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.coedDownloadBox {
+    width: 50%;
+    max-width: 135px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.comingCover {
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    bottom: -100%;
+    background-image: url(../yixi/img/back_img.png);
+    background-position: center center;
+    background-repeat: repeat;
+    background-color: #222;
+    text-align: center;
+    line-height: 140px;
+    color: #ccc;
+    font-size: 1.2em;
+}
+
+.coedDownloadBox .iosHead {
+    background-image: url(../yixi/img/itunes_dev.png);
+    background-repeat: no-repeat;
+    background-position: 123% bottom;
+    height: 24px;
+    line-height: 36px;
+    width: 100%;
+    color: #ededed;
+}
+
+.bitMapBox {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bitMapBox img {
+    width: 100%;
+    max-width: 135px;
+    float: left;
+}
+
+.itunesDownloadButton {
+    background-image: url(../yixi/img/itunes.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 40px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.coedDownloadBox .androidHead {
+    background-image: url(../yixi/img/adnroid.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 24px;
+    line-height: 36px;
+    width: 100%;
+    color: #ededed;
+}
+
+.androidDownloadButton {
+    background-image: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 40px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.lastFoot {
+    width: 100%;
+    background-color: #444;
+    margin-top: -3px;
+}
+
+.lastFootBox {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    color: #ccc;
+    line-height: 40px;
+}
+
+.lastList {
+    float: right;
+    height: 40px;
+}
+
+.lastList li {
+    width: 24px;
+    margin: 8px 10px;
+    height: 24px;
+    float: left;
+}
+
+.weibo {
+    background-image: url(../yixi/img/weibo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.weibo:hover {
+    background-image: url(../yixi/img/weibo_red.png);
+}
+
+.youku {
+    background-image: url(../yixi/img/youku.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.youku:hover {
+    background-image: url(../yixi/img/youku_red.png);
+}
+
+.facebook {
+    background-image: url(../yixi/img/facebook.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.facebook:hover {
+    background-image: url(../yixi/img/facebook_red.png);
+}
+
+.lastList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.lastFootBox span a:link,
+.lastFootBox a:visited {
+    color: #ccc;
+}
+
+.backToTop {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+.backToTop span {
+    display: block;
+}
+
+.backToTop:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/*首页与专题详情页公共部分*/
+
+.baseVideoList {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.baseVideoList li {
+    width: 33.333%;
+    max-width: 420px;
+    padding: 0px 0.5%;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .baseVideoList li {
+        width: 50%;
+        max-width: 50%;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .baseVideoList li {
+        width: 100%;
+        max-width: 100%;
+        padding: 0px;
+    }
+}
+
+.baseVideoBox {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 800px) {
+    .baseVideoBox {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .baseVideoBox {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.baseVideoBox .videoContent {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.videoCover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(204, 52, 52, 0.9);
+    position: absolute;
+    text-align: center;
+    top: -100%;
+    overflow: hidden;
+}
+
+.videoCover a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #fff;
+}
+
+.videoHeadBox {
+    width: 20%;
+    max-width: 64px;
+    margin: 0 auto;
+}
+
+.videoCover .baseHeadContent {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 1px 2px #333;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.videoCover .baseHeadContent img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.videoCover .name {
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    line-height: 1.6em;
+    font-size: 1.4em;
+}
+
+.videoCover .speakersDescription {
+    display: block;
+    font-size: 1.3em;
+    line-height: 21px;
+    padding: 5px 0px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.playInfoList {
+    width: 80%;
+    margin: 0 auto;
+    float: right;
+}
+
+@media screen and (max-width: 1024px) {
+    .baseVideoList li {
+        width: 50%;
+        max-width: 50%;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .baseVideoList li {
+        width: 100%;
+        max-width: 100%;
+        padding: 0px;
+    }
+}
+
+.playInfoList li {
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 30px;
+    height: 16px;
+    line-height: 16px;
+    color: #ccc;
+    text-align: left;
+    margin: 0px;
+}
+
+.playTime {
+    background-image: url(../yixi/img/playtime.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+
+.liked {
+    background-image: url(../yixi/img/Like-s.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+
+.comment {
+    background-image: url(../yixi/img/Review.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+
+.baseVideoBox .videoTitle {
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #CC3434;
+    font-size: 1.8em;
+    line-height: 2.2em;
+}

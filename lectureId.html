@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/lectureId.css">
+    <title>SPEECH-LECTUREID</title>
+</head>
+
+<body>
+    <!--导航-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid navBg">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <!--当你切换到移动端或屏幕比较小的时候显示的logo-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar" style="top:5px;"></span>
+            <span class="icon-bar" style="top:11px;"></span>
+            <span class="icon-bar" style="top:21px;"></span>
+            </button>
+                <!--显示在页面的logo-->
+                <a class="navbar-brand" href="index.html">SPEECH</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="/">专题集</a></li>
+                    <li class="bgRed"><a href="lectureAll.html">演讲集</a></li>
+                    <li><a href="/">活动</a></li>
+                    <li><a href="/">记录</a></li>
+                    <li><a href="/">礼物</a></li>
+                    <li><a href="/">关于</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--banner-->
+    <div class="lecBanner">
+        <div class="container-fluid">
+            <div id="Carousel" class="carousel slide">
+                <!-- Carousel items -->
+                <ul class="carousel-inner" role="listbox"></ul>
+            </div>
+        </div>
+    </div>
+    <!--section-->
+    <section class="sbw1240 pdt40 cutline lecFirSec"></section>
+    <!--main list section-->
+    <section class="sbw1240 pdt40 clearfix lecMainSec">
+        <div class="lecturesOverView mt20 mb20 clearfix"></div>
+        <div class="leftRow">
+            <div id="youkuplayer" class="detailVideoContent clearfix"></div>
+            <div class="detailVideoControl clearfix mb40">
+                <div class="userControl">
+                    <a id="likeBtn" href="" title="喜欢" class="like"></a>
+                    <a id="bookmarkBtn" href="" title="收藏" class="mark"></a>
+                </div>
+                <ul class="videoControl"></ul>
+            </div>
+            <div class="commentContent mb40">
+                <h3 class="commTit"></h3>
+                <input id="addCommentInput" class="baseCommentInput mb20" placeholder="我来说两句...">
+                <ul id="commentContainer"></ul>
+                <div class="pageSelectBox">
+                    <div class="pageSelectList">
+                        <a href="" class="prev">«</a>
+                        <a href="" class="active pageNum">1</a>
+                        <a href="" class="pageNum">2</a>
+                        <a href="" class="pageNum">3</a>
+                        <a href="" class="pageNum">4</a>
+                        <a href="" class="next">»</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightRow">
+            <div class="shareBox mb30">
+                <ul class="shareList">
+                    <li>
+                        <a id="shareToWeiBo" href="#" title="新浪微博">
+                            <img src="../zhangcuicui_SPEECH/img/share_weibo_24.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a id="shareToWechat" href="#" title="微信">
+                            <img src="../zhangcuicui_SPEECH/img/share_wechat_24.png" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a id="shareToQQ" href="#" target="_blank" title="腾讯微博">
+                            <img src="../zhangcuicui_SPEECH/img/share_qq_24.png"></a>
+                    </li>
+                </ul>
+                <div class="wechatPopOut">
+                    <span class="title">分享到微信</span>
+                    <span>如果您需要分享到微信，请用微信扫一扫，扫描下方二维码，再进行分享</span>
+                    <img src="http://yixi.tv/qrcode">
+                </div>
+            </div>
+            <div class="tagBox mb30">
+                <ul class="tagList clearfix"></ul>
+            </div>
+            <a href="#" class="wholeSpeechButton mb60">查看完整演讲稿</a>
+            <div class="relatedBox">
+                <div class="baseSectionTitleDetail tw100p">相关演讲集</div>
+                <ul class="baseRelatedList"></ul>
+            </div>
+        </div>
+    </section>
+    <!--脚部-->
+    <footer class="footer clearfix">
+        <div class="footerBox">
+            <div class="baseFootBox newCommom">
+                <span class="title">最新评论</span>
+                <div class="footCutLine"></div>
+                <ul class="newCommonList"></ul>
+            </div>
+            <div class="baseFootBox contact">
+                <span class="title">关联</span>
+                <div class="footCutLine"></div>
+                <ul class="baseFootList">
+                    <li><a href="/" target="_blank">优酷</a></li>
+                    <li><a href="/" target="_blank">微博</a></li>
+                    <li><a href="/" target="_blank">豆瓣</a></li>
+                    <li><a href="/" target="_blank">Facebook</a></li>
+                    <li class="footWeixin"><a href="">微信</a>
+                        <div>请在微信中搜索公众号<span>SPEECHclub</span>关注我们。<br>谢谢。</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="baseFootBox QA"><span class="title">支持</span>
+                <div class="footCutLine"></div>
+                <ul class="baseFootList">
+                    <li><a href="/">常见问题</a></li>
+                    <li><a href="/">活动时间表</a></li>
+                    <li><a href="/" target="_blank">用户反馈</a></li>
+                </ul>
+            </div>
+            <div class="baseFootBox downloadApp"><span class="title">app</span>
+                <div class="footCutLine"></div>
+                <div class="coedDownloadBox">
+                    <div class="comingCover"></div>
+                    <div class="iosHead">for&nbsp;iOS</div>
+                    <div class="bitMapBox"><img src="../zhangcuicui_SPEECH/img/Bitmap_ios.png"></div>
+                    <a href="/" class="itunesDownloadButton" target="_blank"></a>
+                </div>
+                <div class="coedDownloadBox ml10">
+                    <div class="comingCover"></div>
+                    <div class="androidHead">for&nbsp;Android</div>
+                    <div class="bitMapBox"><img src="../zhangcuicui_SPEECH/img/bitmap_android.png"></div>
+                    <a href="#" class="androidDownloadButton"></a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+    <!--脚部信息-->
+    <div class="lastFoot">
+        <div class="lastFootBox">
+            <ul class="lastList">
+                <li class="weibo">
+                    <a href="/"></a>
+                </li>
+                <li class="youku">
+                    <a href="/"></a>
+                </li>
+                <li class="facebook">
+                    <a href="/"></a>
+                </li>
+            </ul>
+            <span><a href="#">©</a>&nbsp;2014&nbsp;SPEECH.&nbsp;京ICP备13001689号-1</span></div>
+    </div>
+    <!--返回顶部-->
+    <div class="backToTop" id="backToTop" style="display: block;"><span>⇑</span><span>TOP</span></div>
+    <!--wholeSpeechContent-->
+    <div class="wholeSpeechContent" style="top: 100%; opacity: 0;">
+        <a href="#" class="wholeSpeechCloseButton"></a>
+    </div>
+</body>
+<!--<script src="js/touch.js"></script>-->
+<script src="js/jquery.js "></script>
+<script src="bootstrap/js/bootstrap.min.js "></script>
+<script src="js/public.js"></script>
+<script src="js/lectureId.js"></script>
+<script src="js/homeCommom.js"></script>
+<script>
+</script>
+
+</html>
