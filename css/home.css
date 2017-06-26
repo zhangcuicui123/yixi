@@ -27,22 +27,22 @@
     position: absolute;
     top: 50%;
     margin-top: -50px;
-    background-image: url(../zhangcuicui_SPEECH/img/bannerprev.png);
+    background-image: url(../img/bannerprev.png);
 }
 
 .carousel-control.right {
     position: absolute;
     top: 50%;
     margin-top: -50px;
-    background-image: url(../zhangcuicui_SPEECH/img/bannernextv.png);
+    background-image: url(../img/bannernextv.png);
 }
 
 .carousel-control.left:hover {
-    background-image: url(../zhangcuicui_SPEECH/img/bannerprev_over.png);
+    background-image: url(../img/bannerprev_over.png);
 }
 
 .carousel-control.right:hover {
-    background-image: url(../zhangcuicui_SPEECH/img/bannernextv_over.png);
+    background-image: url(../img/bannernextv_over.png);
 }
 
 .carousel-indicators .active {

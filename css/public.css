@@ -209,7 +209,7 @@ a:active {
 }
 
 .newCommom .title {
-    background-image: url(../yixi/img/common_foot.png);
+    background-image: url(../img/common_foot.png);
     background-position: left center;
     background-repeat: no-repeat;
     display: block;
@@ -291,7 +291,7 @@ a:active {
 }
 
 .contact .title {
-    background-image: url(../yixi/img/contect_foot.png);
+    background-image: url(../img/contect_foot.png);
     background-position: left center;
     background-repeat: no-repeat;
     display: block;
@@ -343,7 +343,7 @@ a:active {
 }
 
 .QA .title {
-    background-image: url(../yixi/img/support_foot.png);
+    background-image: url(../img/support_foot.png);
     background-position: left center;
     background-repeat: no-repeat;
     display: block;
@@ -387,7 +387,7 @@ a:active {
 }
 
 .downloadApp .title {
-    background-image: url(../yixi/img/app_foot.png);
+    background-image: url(../img/app_foot.png);
     background-position: left center;
     background-repeat: no-repeat;
     display: block;
@@ -411,7 +411,7 @@ a:active {
     width: 100%;
     height: 140px;
     bottom: -100%;
-    background-image: url(../yixi/img/back_img.png);
+    background-image: url(../img/back_img.png);
     background-position: center center;
     background-repeat: repeat;
     background-color: #222;
@@ -422,7 +422,7 @@ a:active {
 }
 
 .coedDownloadBox .iosHead {
-    background-image: url(../yixi/img/itunes_dev.png);
+    background-image: url(../img/itunes_dev.png);
     background-repeat: no-repeat;
     background-position: 123% bottom;
     height: 24px;
@@ -443,7 +443,7 @@ a:active {
 }
 
 .itunesDownloadButton {
-    background-image: url(../yixi/img/itunes.png);
+    background-image: url(../img/itunes.png);
     background-position: center center;
     background-repeat: no-repeat;
     width: 135px;
@@ -454,7 +454,7 @@ a:active {
 }
 
 .coedDownloadBox .androidHead {
-    background-image: url(../yixi/img/adnroid.png);
+    background-image: url(../img/adnroid.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     height: 24px;
@@ -501,33 +501,33 @@ a:active {
 }
 
 .weibo {
-    background-image: url(../yixi/img/weibo.png);
+    background-image: url(../img/weibo.png);
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .weibo:hover {
-    background-image: url(../yixi/img/weibo_red.png);
+    background-image: url(../img/weibo_red.png);
 }
 
 .youku {
-    background-image: url(../yixi/img/youku.png);
+    background-image: url(../img/youku.png);
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .youku:hover {
-    background-image: url(../yixi/img/youku_red.png);
+    background-image: url(../img/youku_red.png);
 }
 
 .facebook {
-    background-image: url(../yixi/img/facebook.png);
+    background-image: url(../img/facebook.png);
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .facebook:hover {
-    background-image: url(../yixi/img/facebook_red.png);
+    background-image: url(../img/facebook_red.png);
 }
 
 .lastList li a {
@@ -723,19 +723,19 @@ a:active {
 }
 
 .playTime {
-    background-image: url(../yixi/img/playtime.png);
+    background-image: url(../img/playtime.png);
     background-position: 5px center;
     background-repeat: no-repeat;
 }
 
 .liked {
-    background-image: url(../yixi/img/Like-s.png);
+    background-image: url(../img/Like-s.png);
     background-position: 5px center;
     background-repeat: no-repeat;
 }
 
 .comment {
-    background-image: url(../yixi/img/Review.png);
+    background-image: url(../img/Review.png);
     background-position: 5px center;
     background-repeat: no-repeat;
 }

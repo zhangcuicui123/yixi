@@ -22,7 +22,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../zhangcuicui_SPEECH/img/lectureAllBnn.jpg);
+    background-image: url(../img/lectureAllBnn.jpg);
     position: relative;
     overflow: hidden;
 }
@@ -89,14 +89,14 @@ h2 {
 }
 
 .listChangesBox .listAll {
-    background-image: url(../zhangcuicui_SPEECH/img/list_all.png);
+    background-image: url(../img/list_all.png);
     background-position: 112px center;
     background-repeat: no-repeat;
     font-size: 1.3em;
 }
 
 .listChangesBox .listTime {
-    background-image: url(../zhangcuicui_SPEECH/img/list_time.png);
+    background-image: url(../img/list_time.png);
     background-position: 112px center;
     background-repeat: no-repeat;
     position: relative;
@@ -112,7 +112,7 @@ h2 {
     top: 0px;
     right: 0px;
     background-color: #cc3434;
-    background-image: url(../zhangcuicui_SPEECH/img/dropDown.png);
+    background-image: url(../img/dropDown.png);
     background-position: center center;
     background-repeat: no-repeat;
     z-index: 20;
@@ -146,7 +146,7 @@ h2 {
 }
 
 .listChangesBox .listClass {
-    background-image: url(../zhangcuicui_SPEECH/img/list_class.png);
+    background-image: url(../img/list_class.png);
     background-position: 112px center;
     background-repeat: no-repeat;
     position: relative;
@@ -155,7 +155,7 @@ h2 {
 
 @media screen and (max-width: 800px) {
     .listChangesBox .listAll {
-        background-image: url(../zhangcuicui_SPEECH/img/list_all.png);
+        background-image: url(../img/list_all.png);
         background-position: 85% center;
         background-repeat: no-repeat;
         font-size: 1.3em;
@@ -164,7 +164,7 @@ h2 {
 
 @media screen and (max-width: 800px) {
     .listChangesBox .listTime {
-        background-image: url(../zhangcuicui_SPEECH/img/list_time.png);
+        background-image: url(../img/list_time.png);
         background-position: 85% center;
         background-repeat: no-repeat;
         position: relative;
@@ -174,7 +174,7 @@ h2 {
 
 @media screen and (max-width: 800px) {
     .listChangesBox .listClass {
-        background-image: url(../zhangcuicui_SPEECH/img/list_class.png);
+        background-image: url(../img/list_class.png);
         background-position: 85% center;
         background-repeat: no-repeat;
         position: relative;

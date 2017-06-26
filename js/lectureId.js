@@ -111,7 +111,7 @@ function getPage(page) {
             $('#commentContainer').html(commStr);
             $(".commentHeadBox>img").each(function() {
                 if ($(this).attr('src') == '') {
-                    $(this).attr('src', '../img/head_black90@2x.png');
+                    $(this).attr('src', './img/head_black90@2x.png');
                 }
             })
             $(".wordBox>.title>.created_time").each(function() {

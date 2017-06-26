@@ -25,7 +25,7 @@ $.ajax({
         $('.newCommonList').append(commomStr);
         $('.headBox>div>img').each(function() {
             if ($(this).attr('src') == '') {
-                $(this).attr('src', '../zhangcuicui_SPEECH/img/head_black90@2x.png');
+                $(this).attr('src', './img/head_black90@2x.png');
             }
         })
     }

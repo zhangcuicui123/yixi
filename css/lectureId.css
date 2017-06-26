@@ -173,22 +173,22 @@ h2 {
 
 .userControl a.like:link,
 .userControl a.like:visited {
-    background-image: url(../zhangcuicui_SPEECH/img/big_like.png);
+    background-image: url(../img/big_like.png);
 }
 
 .userControl a.like:hover,
 .userControl a.like:active {
-    background-image: url(../zhangcuicui_SPEECH/img/big_like_s.png);
+    background-image: url(../img/big_like_s.png);
 }
 
 .userControl a.mark:link,
 .userControl a.mark:visited {
-    background-image: url(../zhangcuicui_SPEECH/img/big_mark.png);
+    background-image: url(../img/big_mark.png);
 }
 
 .userControl a.mark:hover,
 .userControl a.mark:active {
-    background-image: url(../zhangcuicui_SPEECH/img/big_mark_s.png);
+    background-image: url(../img/big_mark_s.png);
 }
 
 .videoControl {
@@ -214,15 +214,15 @@ h2 {
 }
 
 .videoControl .play {
-    background-image: url(../zhangcuicui_SPEECH/img/big_playtime@1x.png);
+    background-image: url(../img/big_playtime@1x.png);
 }
 
 .videoControl .like {
-    background-image: url(../zhangcuicui_SPEECH/img/big_Like-s@1x.png);
+    background-image: url(../img/big_Like-s@1x.png);
 }
 
 .videoControl .review {
-    background-image: url(../zhangcuicui_SPEECH/img/big_Review@1x.png);
+    background-image: url(../img/big_Review@1x.png);
 }
 
 .commentContent {
@@ -407,7 +407,7 @@ h2 {
 }
 
 .shareBox {
-    background-image: url(../zhangcuicui_SPEECH/img/Share_list.png);
+    background-image: url(../img/Share_list.png);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 24px 24px;
@@ -458,7 +458,7 @@ h2 {
 }
 
 .tagBox {
-    background-image: url(../zhangcuicui_SPEECH/img/Review_list.png);
+    background-image: url(../img/Review_list.png);
     background-position: left 5px;
     background-repeat: no-repeat;
     background-size: 24px 24px;
@@ -608,7 +608,7 @@ h2 {
     position: fixed;
     right: 3%;
     top: 103%;
-    background-image: url(../zhangcuicui_SPEECH/img/Back.png);
+    background-image: url(../img/Back.png);
     background-size: 48px 48px;
     background-position: center center;
     background-repeat: no-repeat;
